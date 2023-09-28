@@ -1,0 +1,69 @@
+body {
+  background: #000;
+}
+
+.container {
+  width: 900px;
+  background: #fefefe;
+  margin: 80px auto;
+  padding: 80px;
+}
+.container .inner .tab-head ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+  margin: 0;
+  border-bottom: 3px solid #1b9993;
+}
+.container .inner .tab-head ul li {
+  list-style: none;
+  color: #9ca59c;
+  background: #eeedf0;
+  padding: 20px 30px;
+  width: 100px;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  cursor: pointer;
+}
+.container .inner .tab-head ul li:hover {
+  background: #1b9993;
+  color: #fff;
+}
+.container .inner .tab-data {
+  border: 1px solid #bfbfc0;
+  border-top: none;
+  padding: 50px;
+  margin: 0;
+}
+.container .inner .tab-data .service {
+  display: none;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 10px 0;
+}
+.container .inner .tab-data .service.active {
+  display: flex;
+}
+.container .inner .tab-data .service img {
+  width: 100px;
+  height: 100px;
+}
+.container .inner .tab-data .service .description {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .inner .tab-data .service .description h3 {
+  color: #615b5c;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.container .inner .tab-data .service .description p {
+  color: #9ca59c;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
